@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import About from '../Components/About/About';
 import Hero from '../Components/HeroSection/Hero';
+import Menu from '../Components/Menu/Menu';
 import Navbar from '../Components/Navbar/Navbar';
 
 const Homepage = () => {
@@ -11,6 +12,7 @@ const Homepage = () => {
             <AllWrapper>
                 <Hero />
                 <About />
+                <Menu />
             </AllWrapper>
         </>
     )

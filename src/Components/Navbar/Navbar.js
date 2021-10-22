@@ -213,7 +213,7 @@ margin-right:auto;
 margin-left:25px;
 &.active {
     span{
-border-bottom: 2px solid #000;}
+border-bottom: 2px solid #4e945a;}
 }
     
     span{
