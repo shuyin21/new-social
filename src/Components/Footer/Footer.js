@@ -6,7 +6,9 @@ const Footer = () => {
     return (
         <>
             <FooterDiv>
-                <FooterWrapper></FooterWrapper>
+                <FooterWrapper>
+                    <h3>©{(new Date().getFullYear())} SOCIAL BREW CAFE. Established London 2017. </h3>
+                </FooterWrapper>
             </FooterDiv>
         </>
     )
@@ -28,7 +30,9 @@ align-items:center;
 const FooterWrapper = styled.div`
 width:60%;
 height:80%;
-
+display:flex;
+align-items:center;
+justify-content:center;
 
 
 `;
