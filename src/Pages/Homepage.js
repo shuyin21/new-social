@@ -5,6 +5,7 @@ import Hero from '../Components/HeroSection/Hero';
 import Menu from '../Components/Menu/Menu';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
+import Booking from '../Components/Booking/Booking';
 
 const Homepage = () => {
     return (
@@ -14,6 +15,7 @@ const Homepage = () => {
                 <Hero />
                 <About />
                 <Menu />
+                <Booking />
                 <Footer />
             </AllWrapper>
         </>
