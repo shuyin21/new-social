@@ -7,7 +7,8 @@ const Footer = () => {
         <>
             <FooterDiv>
                 <FooterWrapper>
-                    <h3>©{(new Date().getFullYear())} SOCIAL BREW CAFE. Established London 2017. </h3>
+                    <h3>©{(new Date().getFullYear())} SOCIAL BREW CAFE  </h3>
+                    <h4>Established London 2017.</h4>
                 </FooterWrapper>
             </FooterDiv>
         </>
@@ -19,7 +20,7 @@ export default Footer
 
 const FooterDiv = styled.div`
 width:100vw;
-height:200px;
+height:150px;
 background-color: #222;
 display:flex;
 justify-content:center;
@@ -31,8 +32,14 @@ const FooterWrapper = styled.div`
 width:60%;
 height:80%;
 display:flex;
+flex-direction: column;
 align-items:center;
 justify-content:center;
 
 
+
+h3,h4{
+    color: #fff;
+    margin:2px 0;
+}
 `;
