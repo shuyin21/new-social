@@ -79,6 +79,15 @@ const Booking = () => {
 
                             />
                         </DateDiv>
+                        <PersonCount name='person'>
+                            <option disabled>How many person</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </PersonCount>
 
 
                         <FormTextarea required name='message' placeholder='Your message' />
@@ -186,6 +195,20 @@ margin:10px 0;
     width: 90%;
 }
 `;
+const PersonCount = styled.select`
+
+width:50%;
+height:3rem;
+border-radius: 10px;
+padding-left:20px;
+margin:10px 0;
+
+@media screen and (max-width:768px){
+    width: 90%;
+}
+`;
+
+
 const FormButton = styled.input`
 width:30%;
 height:3rem;
@@ -247,3 +270,4 @@ button{
     }
 }
 `;
+
