@@ -70,7 +70,7 @@ text-align: center;
 
 const VideoBg = styled.video`
 width: 100%;
-height: 940px;
+height: 100vh;
 --o-object-fit:cover;
 object-fit:cover;
 background: #232a34;

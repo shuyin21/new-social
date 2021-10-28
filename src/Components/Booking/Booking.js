@@ -55,7 +55,7 @@ const Booking = () => {
         <>
 
 
-            <ApDiv id='appointments'>
+            <ApDiv id='booking'>
                 <HeaderWrapper>
                     <h1>Please select the desired date and time</h1>
                     <h3>I will get back to you as soon as possible to confirm</h3>
