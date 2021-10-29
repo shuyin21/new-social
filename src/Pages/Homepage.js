@@ -7,6 +7,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import Booking from '../Components/Booking/Booking';
 import Contact from '../Components/Contact/Contact';
+import Order from '../Components/Order/Order';
 
 const Homepage = () => {
     return (
@@ -16,6 +17,7 @@ const Homepage = () => {
                 <Hero />
                 <About />
                 <Menu />
+                <Order />
                 <Booking />
                 <Contact />
                 <Footer />
