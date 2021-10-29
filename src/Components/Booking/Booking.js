@@ -108,7 +108,7 @@ export default Booking
 
 
 const ApDiv = styled.div`
-background-color: #000;
+background-color: #222;
 height: 100vh;
 width: 100vw;
 display: flex;
