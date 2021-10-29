@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
+import Deliveroo from '../../Images/deliveroo.png';
+import Uber from '../../Images/ubereats.png';
 
 const Order = () => {
     return (
@@ -11,8 +13,10 @@ const Order = () => {
                         <h3>Bring Social Brew Cafe home today</h3>
                     </HeaderWrapper>
                     <LinkWrapper>
-                        <OrderLink />
-                        <OrderLink />
+                        <a href='https://deliveroo.co.uk/menu/london/putney/social-brew-cafe'>
+                            <OrderLink src={Deliveroo} /></a>
+                        <a href='https://www.ubereats.com/gb/store/social-brew-cafe/MACBn5Z1TAWtQfMS7rYEvA?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMktUMyUyMDNQRSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUplX0EtWDIwSmRrZ1JObWN4SXNYX09MVSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E1MS4zOTkyNDkzJTJDJTIybG9uZ2l0dWRlJTIyJTNBLTAuMjU4Mjk0NiU3RA%3D%3D'
+                        ><OrderLink src={Uber} /></a>
                     </LinkWrapper>
                 </OrderWrapper>
             </OrderDiv>
@@ -57,8 +61,34 @@ h3{
 
 const LinkWrapper = styled.div`
 display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height:100%;
+
+
+a{
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 30%;
+height:100%;
+
+
+@media screen and (max-width:768px){
+    width:70%;
+}
+}
 `;
 
-const OrderLink = styled.div`
-width:30%;
+const OrderLink = styled.img`
+
+height:50%;
+margin:0 20px;
+cursor:pointer;
+
+&:hover{
+    transform:scale(0.97);
+}
+
 `;
