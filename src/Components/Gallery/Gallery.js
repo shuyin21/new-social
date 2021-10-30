@@ -7,7 +7,10 @@ import sl3 from '../../Images/sl3.jpg';
 import sl4 from '../../Images/sl4.jpg';
 import sl5 from '../../Images/sl5.jpg';
 import sl6 from '../../Images/sl6.jpg';
-
+import sl7 from '../../Images/sl7.jpg';
+import sl8 from '../../Images/sl8.jpg';
+import sl9 from '../../Images/sl9.jpg';
+import sl10 from '../../Images/sl10.jpg';
 
 const Gallery = () => {
 
@@ -28,7 +31,7 @@ const Gallery = () => {
         dots: false,
         infinite: true,
         speed: 5000,
-        slidesToShow: 3,
+        slidesToShow: 2,
         centerMode: true,
         centerPadding: "60px",
 
@@ -63,7 +66,7 @@ const Gallery = () => {
     return (
         <>
             <MainDiv id='gallery'>
-                <CarouselWrapper>
+                {/* <CarouselWrapper>
 
                     <Carousel   {...mainSetting}>
 
@@ -98,10 +101,43 @@ const Gallery = () => {
                                 <Img src={sl6} />
                             </ImgHolder>
                         </Wrap>
+                        <Wrap>
+                            <ImgHolder><ShaderBox></ShaderBox>
+                                <Img src={sl7} />
+                            </ImgHolder>
+                        </Wrap>
+                        <Wrap>
+                            <ImgHolder><ShaderBox></ShaderBox>
+                                <Img src={sl8} />
+                            </ImgHolder>
+                        </Wrap>
+                        <Wrap>
+                            <ImgHolder><ShaderBox></ShaderBox>
+                                <Img src={sl9} />
+                            </ImgHolder>
+                        </Wrap>
+                        <Wrap>
+                            <ImgHolder><ShaderBox></ShaderBox>
+                                <Img src={sl10} />
+                            </ImgHolder>
+                        </Wrap>
 
 
 
-
+                    </Carousel>
+                </CarouselWrapper> */}
+                <CarouselWrapper>
+                    <Carousel   {...mainSetting}>
+                        <Wrap>
+                            <ImgHolder>
+                                <Img src={sl1} />
+                            </ImgHolder>
+                        </Wrap>
+                        <Wrap>
+                            <ImgHolder><ShaderBox></ShaderBox>
+                                <Img src={sl10} />
+                            </ImgHolder>
+                        </Wrap>
                     </Carousel>
                 </CarouselWrapper>
             </MainDiv>
@@ -112,12 +148,15 @@ const Gallery = () => {
 export default Gallery
 
 const MainDiv = styled.div`
+
 width: 100vw;
 height:700px;
 display: flex;
 justify-content: center;
 align-items: center;
 background-color: #000;
+
+
 @media screen and (max-width:900px){
         height:400px;
         margin:0;
@@ -129,21 +168,43 @@ width: 100vw;
 height:400px;
 position: relative;
 padding:0 10%;
+
+
 @media screen and (max-width:900px){
     padding:0 5%;
     height:200px;
 }
+
+
+
+
+
+
+
 `;
 
 
 const Carousel = styled(Slider)`
+
 display:flex;
+flex-direction: row;
+width:100%;
 align-items:center;
 justify-content:center;
+
+
+
+
+
+
 `;
 const Wrap = styled.div`
+width:300px;
 padding:0 20px;
+
 background-color: #000;
+
+
 @media screen and (max-width:900px){
     padding:0 5px;
 }
@@ -152,6 +213,7 @@ background-color: #000;
 
 
 const ImgHolder = styled.div`
+width:300px;
 border-radius: 4px;
     box-shadow: rgb(0 0 0 /69%) 0px 26px 30px -10px, rgb(0 0 0  / 73%) 0px 16px 10px -10px;
     
@@ -159,24 +221,32 @@ border-radius: 4px;
    
     
     height:100%;
+
+border: 5px solid white;
+
     @media screen and (max-width:900px){
         height:50%;
     }
 `;
 
 const Img = styled.img`
+
         width: 100%;
         height:400px;
         object-fit: cover;
 z-index:-1;
        
+
 @media screen and (max-width:900px){
         height:200px;
     }
+
+
+
 `;
 
 const ShaderBox = styled.div`
-width: 100vw;
+/* width: 100vw;
   height: 400px;
   background: rgba(0,0,0,0);
   position: absolute;
@@ -185,5 +255,8 @@ width: 100vw;
   justify-content: center;
   text-align: center;
   z-index: 3;
-  padding:0 20px;
+  padding:0 20px; */
+
+
+
 `;

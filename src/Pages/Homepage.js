@@ -8,6 +8,7 @@ import Footer from '../Components/Footer/Footer';
 import Booking from '../Components/Booking/Booking';
 import Contact from '../Components/Contact/Contact';
 import Order from '../Components/Order/Order';
+import Gallery from '../Components/Gallery/Gallery';
 
 const Homepage = () => {
     return (
@@ -18,6 +19,7 @@ const Homepage = () => {
                 <About />
                 <Menu />
                 <Order />
+                <Gallery />
                 <Booking />
                 <Contact />
                 <Footer />
