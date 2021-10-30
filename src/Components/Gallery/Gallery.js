@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import styled from 'styled-components';
-import sl1 from '../../images/GalleryImages/sl1.jpg';
-import sl2 from '../../images/GalleryImages/sl2.jpg';
-import sl3 from '../../images/GalleryImages/sl3.jpg';
-import sl4 from '../../images/GalleryImages/sl4.jpg';
-import sl5 from '../../images/GalleryImages/sl5.jpg';
-import sl6 from '../../images/GalleryImages/sl6.jpg';
+import sl1 from '../../Images/sl1.jpg';
+import sl2 from '../../Images/sl2.jpg';
+import sl3 from '../../Images/sl3.jpg';
+import sl4 from '../../Images/sl4.jpg';
+import sl5 from '../../Images/sl5.jpg';
+import sl6 from '../../Images/sl6.jpg';
 
 
 const Gallery = () => {
