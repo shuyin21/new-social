@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import styled from 'styled-components';
 import sl1 from '../../Images/sl1.jpg';
@@ -32,7 +33,7 @@ const Gallery = () => {
     let settings = {
         dots: false,
         infinite: true,
-        speed: 5000,
+        speed: 6000,
         slidesToShow: 3,
         centerMode: true,
         centerPadding: "60px",
@@ -46,7 +47,7 @@ const Gallery = () => {
     let settings2 = {
         dots: false,
         infinite: true,
-        speed: 5000,
+        speed: 7000,
         slidesToShow: 2,
         centerMode: true,
         centerPadding: "60px",
@@ -93,6 +94,16 @@ const Gallery = () => {
                                 <Img src={sl4} />
                             </ImgHolder>
                         </Wrap>
+                        <Wrap>
+                            <ImgHolder>
+                                <Img src={sl5} />
+                            </ImgHolder>
+                        </Wrap>
+                        <Wrap>
+                            <ImgHolder>
+                                <Img src={sl6} />
+                            </ImgHolder>
+                        </Wrap>
 
 
 
@@ -107,7 +118,7 @@ export default Gallery
 
 const MainDiv = styled.div`
 width:100vw;
-height:500px;
+height:450px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -115,7 +126,7 @@ justify-content:center;
 
 const CarouselWrapper = styled.div`
 width:100%;
-height:300px;
+height:400px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -123,24 +134,27 @@ justify-content:center;
 
 
 const Carousel = styled(Slider)`
-width: 40%;
-height:300px;
+width: 100%;
+height:400px;
 display:flex;
+align-items:center;
+justify-content:center;
 `;
 
 const Wrap = styled.div`
-width:300px;
+width:30vw;
 height:300px;
+background-color: #fff;
 `;
 
 
 
 
 const ImgHolder = styled.div`
-width:300px;
+width:30vw;
 height:300px;
 border-radius: 4px;
-    box-shadow: rgb(0 0 0 /69%) 0px 26px 30px -10px, rgb(0 0 0  / 73%) 0px 16px 10px -10px;
+    
     
     display: block;
    
@@ -150,10 +164,14 @@ border-radius: 4px;
 `;
 
 const Img = styled.img`
-width:300px;
+width:30vw;
 height:300px;
 object-fit: cover;
 z-index:100;
+
+@media screen and (max-width:900px){
+    width:35vw;
+}
 `;
 
 // const ShaderBox = styled.div`
