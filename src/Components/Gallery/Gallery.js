@@ -10,10 +10,7 @@ import sl3 from '../../Images/sl3.jpg';
 import sl4 from '../../Images/sl4.jpg';
 import sl5 from '../../Images/sl5.jpg';
 import sl6 from '../../Images/sl6.jpg';
-import sl7 from '../../Images/sl7.jpg';
-import sl8 from '../../Images/sl8.jpg';
-import sl9 from '../../Images/sl9.jpg';
-import sl10 from '../../Images/sl10.jpg';
+
 
 const Gallery = () => {
 
