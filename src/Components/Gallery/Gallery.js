@@ -66,66 +66,7 @@ const Gallery = () => {
     return (
         <>
             <MainDiv id='gallery'>
-                {/* <CarouselWrapper>
 
-                    <Carousel   {...mainSetting}>
-
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl1} />
-
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl2} />
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl3} />
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl4} />
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl5} />
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl6} />
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl7} />
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl8} />
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl9} />
-                            </ImgHolder>
-                        </Wrap>
-                        <Wrap>
-                            <ImgHolder><ShaderBox></ShaderBox>
-                                <Img src={sl10} />
-                            </ImgHolder>
-                        </Wrap>
-
-
-
-                    </Carousel>
-                </CarouselWrapper> */}
                 <CarouselWrapper>
                     <Carousel   {...mainSetting}>
                         <Wrap>
@@ -166,7 +107,8 @@ background-color: #000;
 const CarouselWrapper = styled.div`
 width: 100vw;
 height:400px;
-position: relative;
+display: flex;
+flex-direction: row;
 padding:0 10%;
 
 
@@ -220,7 +162,7 @@ border-radius: 4px;
     display: block;
    
     
-    height:100%;
+    height:200px;
 
 border: 5px solid white;
 
@@ -232,7 +174,7 @@ border: 5px solid white;
 const Img = styled.img`
 
         width: 100%;
-        height:400px;
+        height:200px;
         object-fit: cover;
 z-index:-1;
        
