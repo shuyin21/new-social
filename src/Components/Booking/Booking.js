@@ -109,7 +109,7 @@ export default Booking
 
 const ApDiv = styled.div`
 background-color: #222;
-height: 100vh;
+height: 1000px;
 width: 100vw;
 display: flex;
 flex-direction: column;
