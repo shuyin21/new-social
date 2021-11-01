@@ -267,6 +267,10 @@ display:flex;
 max-width: 80%;
 align-items: baseline;
 
+@media screen and (max-width:768px){
+    justify-content: center;
+    max-width: 100%;
+}
 
 `;
 
