@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import CVideo from '../../Images/cafe.mp4';
+import CVideo from '../../Images/cafe_1.mp4';
 import { Link as LinkS } from 'react-scroll';
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
                 <HeaderElement><h1>Your one stop shop to Award-winning Speciality Coffee</h1>
                     <MouseHolder>
 
-                        <ScrollDowns to='profile'
+                        <ScrollDowns to='about'
 
                             smooth={true}
                             duration={500}
