@@ -95,6 +95,10 @@ h1{
     text-align: center;
     color:#fff;
     font-size: 2.5rem;
+
+    @media screen and (max-width:500px ){
+        width:80%;
+    }
 }
 
 `;
