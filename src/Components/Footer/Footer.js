@@ -8,7 +8,7 @@ const Footer = () => {
             <FooterDiv>
                 <FooterWrapper>
                     <h3>©{(new Date().getFullYear())} SOCIAL BREW CAFE  </h3>
-                    <h4>Established London 2017.</h4>
+                    <h4>Established London 2017. </h4>
                 </FooterWrapper>
             </FooterDiv>
         </>
