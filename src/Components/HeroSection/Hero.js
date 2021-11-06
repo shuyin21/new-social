@@ -14,7 +14,7 @@ const Hero = () => {
 
 
                 </HeroBg>
-                <HeaderElement><h1>Your one stop shop to Award-winning Speciality Coffee</h1>
+                <HeaderElement><h1>Your one stop shop to Award-winning Speciality Coffee </h1>
                     <MouseHolder>
 
                         <ScrollDowns to='about'
