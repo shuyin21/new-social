@@ -17,7 +17,7 @@ const About = () => {
                 <AboutWrapper>
 
                     <LeftDiv>
-                        <h3> About Us</h3>
+                        <h3> About Us </h3>
                         <span>
                             Your one stop shop to Award-winning Speciality Coffee, Smoothies, Açai Bowls,
                             Home-made meals & so much more! ​We've only been here for 3 years, but 3 amazing years with Awards from TimeOut London 2018 & Global Hospitality 2019 & 2020!
