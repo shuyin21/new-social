@@ -174,7 +174,7 @@ export const MenuData = [
         id: 1,
         itemName: 'Social Breakfast',
         itemPrice: '',
-        itemDescription: 'Three eggs either poached or scrambled served with baby spinach, three pieces of Turkey or Chicken, two chicken sausages, beans, hash browns, avocado & two pieces of tiger toast'
+        itemDescription: 'Three eggs either poached, fried or scrambled served with baby spinach, three pieces of Turkey or Chicken, two chicken sausages, beans, hash browns, avocado & two pieces of tiger toast'
     },
 
     {
