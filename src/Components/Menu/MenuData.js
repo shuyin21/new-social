@@ -231,7 +231,7 @@ export const MenuData = [
         id: 9,
         itemName: 'Corn Fritters',
         itemPrice: '',
-        itemDescription: 'Served on baby spinach with avocado, Chicken or Asparagus(V), two poached eggs & sweet chilli sauce.'
+        itemDescription: 'Served on baby spinach with avocado, Chicken, turkey or Asparagus(V), two poached eggs & sweet chilli sauce.'
     },
     {
         menus: 'mains',
