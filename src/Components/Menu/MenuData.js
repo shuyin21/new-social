@@ -48,7 +48,7 @@ export const MenuData = [
         id: 6,
         itemName: 'Smashed pea and asparagus patty (vg)',
         itemPrice: '',
-        itemDescription: ''
+        itemDescription: 'Sweet potato ,courgette and sweetcorn baked with a hint of cayenne pepper and smashed pea with asparagus on top.'
     },
     {
 
