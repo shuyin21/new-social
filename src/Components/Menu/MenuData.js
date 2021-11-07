@@ -8,7 +8,7 @@ export const MenuData = [
         id: 1,
         itemName: 'Cheese and tomato croissant',
         itemPrice: '',
-        itemDescription: ''
+        itemDescription: 'Croissant with a slice of mature chaddar and beef tomato'
     },
     {
 
@@ -16,7 +16,7 @@ export const MenuData = [
         id: 2,
         itemName: 'Turkey, cheese and tomato croissant',
         itemPrice: '',
-        itemDescription: ''
+        itemDescription: 'Croissant with two slice of turkey bacon, a slice of mature chaddar and beef tomato'
     },
     {
 
