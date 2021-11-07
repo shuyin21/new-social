@@ -56,7 +56,7 @@ export const MenuData = [
         id: 7,
         itemName: 'Summer herbs pea and feta frittata (v)',
         itemPrice: '',
-        itemDescription: ''
+        itemDescription: 'Pea, feta, cherry tomato, broccoli and asparagus baked with our herby egg mix.'
     },
     {
 
@@ -64,7 +64,7 @@ export const MenuData = [
         id: 8,
         itemName: 'Rainbow frittata (vg)',
         itemPrice: '',
-        itemDescription: ''
+        itemDescription: 'Spinach, capsicums, jalapenos, sweetcorn baked with garam flour'
     },
     {
 
