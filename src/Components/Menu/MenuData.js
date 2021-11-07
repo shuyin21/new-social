@@ -24,7 +24,7 @@ export const MenuData = [
         id: 3,
         itemName: 'Granola pot',
         itemPrice: '',
-        itemDescription: ''
+        itemDescription: 'Honey joghurt with passion fruit puree and granola'
     },
     {
 
@@ -40,7 +40,7 @@ export const MenuData = [
         id: 5,
         itemName: 'Mushroom and spinach roll',
         itemPrice: '',
-        itemDescription: ''
+        itemDescription: 'Baked sweetpotato, mushroom and spinach mix in puff pastry with mix seeds on top'
     },
     {
 
