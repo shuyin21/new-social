@@ -57,7 +57,7 @@ const Booking = () => {
 
             <ApDiv id='booking'>
                 <HeaderWrapper>
-                    <h1>Please select the desired date and time </h1>
+                    <h1>Please select the desired date and time</h1>
                     <h3>I will get back to you as soon as possible to confirm your booking</h3>
                 </HeaderWrapper>
 
@@ -87,6 +87,7 @@ const Booking = () => {
                             <option>4</option>
                             <option>5</option>
                             <option>6</option>
+                            <option>7</option>
                         </PersonCount>
 
 
