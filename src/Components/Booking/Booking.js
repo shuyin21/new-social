@@ -88,6 +88,7 @@ const Booking = () => {
                             <option>5</option>
                             <option>6</option>
                             <option>6</option>
+                            <option>6</option>
 
 
                         </PersonCount>
