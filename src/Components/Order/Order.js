@@ -13,10 +13,10 @@ const Order = () => {
                         <h3>Bring Social Brew Cafe home today</h3>
                     </HeaderWrapper>
                     <LinkWrapper>
-                        <a href='https://deliveroo.co.uk/menu/london/putney/social-brew-cafe'>
+                        <a href='https://deliveroo.co.uk/menu/london/putney/social-brew-cafe' target='_blank'>
                             <OrderLink src={Deliveroo} /></a>
                         <a href='https://www.ubereats.com/gb/store/social-brew-cafe/MACBn5Z1TAWtQfMS7rYEvA?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMktUMyUyMDNQRSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUplX0EtWDIwSmRrZ1JObWN4SXNYX09MVSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E1MS4zOTkyNDkzJTJDJTIybG9uZ2l0dWRlJTIyJTNBLTAuMjU4Mjk0NiU3RA%3D%3D'
-                        ><OrderLink src={Uber} /></a>
+                            target='_blank'><OrderLink src={Uber} /></a>
                     </LinkWrapper>
                 </OrderWrapper>
             </OrderDiv>
